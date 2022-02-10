@@ -1,0 +1,16 @@
+{
+  "name": "eCard",
+  "packageManager": "yarn@3.1.1",
+  "private": true,
+  "workspaces": [
+    "hardhat-zone",
+    "react-zone"
+  ],
+  "scripts": {
+    "chain": "yarn workspace hardhat-zone chain",
+    "compile": "yarn workspace hardhat-zone compile",
+    "deployLocal": "yarn workspace hardhat-zone deployLocal",
+    "deployTestnet": "yarn workspace hardhat-zone deployTestnet",
+    "start": "yarn workspace react-zone start"
+  }
+}
